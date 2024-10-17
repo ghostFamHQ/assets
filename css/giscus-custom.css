@@ -9,7 +9,7 @@
  * https://github.com/primer/primitives/blob/main/LICENSE
  */
 
-main {
+ :root[data-theme="light"] main {
   --color-prettylights-syntax-comment: #6e7781;
   --color-prettylights-syntax-constant: #0550ae;
   --color-prettylights-syntax-entity: #8250df;
@@ -105,7 +105,7 @@ main .gsc-loading-image {
 }
 
 /*! Dark mode */
-@media (prefers-color-scheme: dark) {
+:root[data-theme="dark"] main {
   /*! MIT License
    * Copyright (c) 2018 GitHub Inc.
    * https://github.com/primer/primitives/blob/main/LICENSE
